@@ -2,12 +2,41 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="/styles/style.css">
-        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Flower Market</title>
 </head>
-<body>
-    
+<body class="m-3.5 lg:m-8">
+    <header class="lg:pt-8 lg:px-40">
+        <nav class="flex justify-between items-center">
+            <img src="/assets/logo.png" alt="" class="">
+            <ul class="flex lg:gap-12">
+                <li class="hidden lg:block"><a href="">Home</a></li>
+                <li class="hidden lg:block"><a href="">Shop</a></li>
+                <li class="hidden lg:block"><a href="">About us</a></li>
+                <li class="">
+                    <a href="" class="flex gap-2">
+                        <img src="assets/shopping-cart.png" alt="cart" class="size-5">Cart ($56)
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="pt-36 px-40 grid grid-cols-2">
+            <div class="pt-40">
+                <h2 class="font-bold text-6xl">ALWAYS <span class="text-orange-600">FRESH</span></h2>
+                <h2 class="mt-3 font-bold text-6xl text-orange-600">FLOWERS</h2>
+                <p class="mt-3">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion.</p>
+            </div>
+            <div class="">
+                <img src="assets/hero-flower.png" alt="">
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
 </body>
 </html>
